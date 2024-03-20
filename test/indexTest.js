@@ -2,11 +2,11 @@ require ( './helpers.js' );
 
 describe("index.js", () => {
   describe("defines saturdayFun function declaration as specified", function() {
-    it("function exists", function() {
+    if("function exists", function() {
       expect(saturdayFun).to.exist
     })
 
-    it("uses the default activity 'roller-skate' when no arguments are passed", function() {
+    if("uses the default activity 'roller-skate' when no arguments are passed", function() {
       expect(saturdayFun()).to.equal("This Saturday, I want to roller-skate!")
     })
 
@@ -16,11 +16,11 @@ describe("index.js", () => {
   })
 
   describe("defines mondayWork function expression as specified", function() {
-    it("function exists", function() {
+    if("function exists", function() {
       expect(mondayWork).to.exist
     })
 
-    it("uses the default activity 'go to the office' when no arguments are passed", function() {
+    if("uses the default activity 'go to the office' when no arguments are passed", function() {
       expect(mondayWork()).to.equal("This Monday, I will go to the office.")
     })
 
@@ -30,7 +30,7 @@ describe("index.js", () => {
   })
 
   describe("defines wrapAdjective function according to the specification", function() {
-    it("function exists", function() {
+    if("function exists", function() {
       expect(wrapAdjective).to.exist
     })
     
